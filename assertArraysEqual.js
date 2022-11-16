@@ -19,4 +19,4 @@ const eqArrays = function(arr1, arr2) {
   return true;
 }
 
-const assertEqualArrays = function(arr1, arr2) {return (assertEqual(arr1,arr2))}
+const assertArrayEqual = function(arr1, arr2) {return (assertEqual(arr1,arr2))}
