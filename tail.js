@@ -1,13 +1,10 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    return (`✅✅✅ Assertion Passed: ${actual} === ${expected}`)
-  }
-  else {
-    return (`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`)
-  }
-};
-
+const assertEqual = require('./assertEqual');
 
 const tail = function(arr){
+  if(arr.length < 1) {
+    return [];
+  }
   return arr.slice(1);
 };
+
+module.exports = tail;
