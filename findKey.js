@@ -23,3 +23,5 @@ console.log(findKey({
 
 console.log(findKey({
 }, x => x.stars === 2))
+
+module.exports = findKey;
