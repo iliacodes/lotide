@@ -1,13 +1,6 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    return (`✅✅✅ Assertion Passed: ${actual} === ${expected}`)
-  }
-  else {
-    return (`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`)
-  }
-};
+const assertEqual = require('./assertEqual')
 
-const assertArraysEqual = function(arr1, arr2) {return (assertEqual(arr1,arr2))}
+const assertArraysEqual = require('./assertArraysEqual');
 
 const without = function (source, itemsToRemove) {
   result = [];
@@ -20,3 +13,5 @@ const without = function (source, itemsToRemove) {
   }
   return result;
 };
+
+module.exports = without;
