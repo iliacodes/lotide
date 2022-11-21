@@ -1,6 +1,5 @@
 const findKeyByValue = function (object, value) {
-  let result = undefined;
-  //let newObj = Object.keys(object);
+  let result = undefined; 
   for (let key in object) {
     if (object[key] === value) {
       result = key;
@@ -8,3 +7,5 @@ const findKeyByValue = function (object, value) {
   }
   return result;
 };
+
+module.exports = findKeyByValue;
