@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@iliacodes/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "My clone of Lodash created for learning purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -20,10 +20,11 @@
     "type": "git",
     "url": "git+https://github.com/iliacodes/lotide.git"
   },
-  "author": "",
+  "author": "iliacodes <6ac177ed@protonmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iliacodes/lotide/issues"
+    "url": "https://github.com/iliacodes/lotide/issues",
+    "email": "6ac177ed@protonmail.com"
   },
   "homepage": "https://github.com/iliacodes/lotide#readme"
 }
